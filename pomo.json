@@ -4,7 +4,7 @@
             "name": "Pomo 4K",
             "type": 3,
             "api": "csp_pomo",
-            "ext": "https://raw.githubusercontent.com/你的GitHub用户名/xptv-pomo/main/pomo.js"
+            "ext": "https://raw.githubusercontent.com/stephen198400/xptv-apple-tv/main/pomo.js"
         }
     ]
 }
