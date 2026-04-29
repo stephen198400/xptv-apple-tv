@@ -1,0 +1,41 @@
+# XPTV 源直连规则集（Surge RULE-SET 格式）
+# 用法: 在 Surge .conf [Rule] 区块加一行
+#   RULE-SET,<本文件 raw URL>,DIRECT
+#
+# 范围：在大陆电信网络（118.x Chinanet 四川）实测可直连的 xptv 源域名
+# 测试日期：2026-04-29
+# 不在此列表的源（OK/豆瓣/黑木耳/小黄人/ikun/U酷/无尽/腐剧/华为吧）需要走代理或站点已死
+
+# ---------------------------------------------------------------
+# type 3 (csp_) GitHub 中转 — 订阅拉取 + 部分插件抓取代理
+# ---------------------------------------------------------------
+DOMAIN-SUFFIX,xptvhelper.link
+
+# ---------------------------------------------------------------
+# type 1 CMS 资源采集站（点播）
+# ---------------------------------------------------------------
+DOMAIN-SUFFIX,360zy.com
+DOMAIN-SUFFIX,wwzy.tv
+DOMAIN-SUFFIX,mdzyapi.com
+DOMAIN-SUFFIX,jinyingzy.com
+DOMAIN-SUFFIX,zpsps.com
+DOMAIN-SUFFIX,niuniuzy.me
+DOMAIN-SUFFIX,yayazy.net
+DOMAIN-SUFFIX,vodimg.top
+DOMAIN-SUFFIX,hhzyapi.com
+DOMAIN-SUFFIX,jszyapi.com
+DOMAIN-SUFFIX,suoniapi.com
+DOMAIN-SUFFIX,ffzyapi.com
+DOMAIN-SUFFIX,lziapi.com
+DOMAIN-SUFFIX,bfzyapi.com
+DOMAIN-SUFFIX,hongniuzy2.com
+DOMAIN-SUFFIX,kczyapi.com
+DOMAIN-SUFFIX,sdzyapi.com
+DOMAIN-SUFFIX,apiyhzy.com
+DOMAIN-SUFFIX,wolongzyw.com
+DOMAIN-SUFFIX,huyaapi.com
+DOMAIN-SUFFIX,p2100.net
+DOMAIN-SUFFIX,subocaiji.com
+DOMAIN-SUFFIX,moduapi.cc
+DOMAIN-SUFFIX,zuidazy.me
+DOMAIN-SUFFIX,xinlangapi.com
